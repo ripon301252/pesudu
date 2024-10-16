@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo + CSSPosition</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        h3{
+            color: peru
+        }
+        /* hover means mouse over */
+        h3:hover{
+            color: rgb(65, 19, 218);
+            font-size: 50px;
+            background-color: black; 
+        }
+        input:focus{
+            color: blue;
+            padding-left: 80px;
+        }
+        a:visited{
+            color: green;
+        }
+
+        li:last-child{
+            color: red;
+        }
+
+        li:first-child{
+            background-color: aqua;
+        }
+
+        li:nth-child(2n){
+            color: blueviolet;
+        }
+
+        li:nth-child(2n+1){
+            color: brown;
+        }
+
+        li:nth-child(3n+1){
+            color: brown;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <!-- pesudo -->
+    <h3>My Heading</h3>
+    <input type="text">
+    <input type="text">
+    <input type="text"> <br>
+    <a href="https://ripon301252.github.io/new-year-party/">ripon</a>
+    <a href="google.com">Google</a>
+
+
+    <ul>
+        <li>Alia</li>
+        <li>Dalia</li>
+        <li>Balia</li>
+        <li>Kalia</li>
+        <li>Malia</li>
+        <li>Palaya</li>
+        <li>Jalaya</li>
+        <li>Orenge</li>
+        <li>mango</li>
+        <li>Painaple</li>
+        <li>Dragon</li>
+    </ul>
+
+    <!--CSS Position-->
+    <h1>CSS Position</h1>
+    <ol>
+        <!-- Flow related -->
+        <li>Static</li>
+        <li>Relative</li>
+        <li>Absolute</li>
+        <!-- scroll related -->
+        <li>Fixed</li>
+        <li>Sticky</li>
+    </ol>
+
+</body>
+</html>
